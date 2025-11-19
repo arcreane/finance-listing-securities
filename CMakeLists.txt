@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.20)
 project(Euronext_Surveillance)
 
 
@@ -15,7 +15,8 @@ find_package(Qt6 COMPONENTS
         Charts
         REQUIRED)
 
-include_directories(.)
+include_directories(.
+        third-party)
 
 add_executable(Euronext_Surveillance
         Alert.h

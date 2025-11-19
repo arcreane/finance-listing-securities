@@ -1,0 +1,10 @@
+^C:\USERS\AGUIL\ONEDRIVE\DOCUMENTS\GITHUB\EURONEXT_SURVEILLANCE\BUILD\CMAKEFILES\4B8BBEE76156045A37AA7B5B5E1F0738\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/aguil/OneDrive/Documents/GitHub/Euronext_Surveillance -BC:/Users/aguil/OneDrive/Documents/GitHub/Euronext_Surveillance/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/aguil/OneDrive/Documents/GitHub/Euronext_Surveillance/build/Euronext_Surveillance.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
