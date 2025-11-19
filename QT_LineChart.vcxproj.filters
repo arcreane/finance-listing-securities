@@ -103,7 +103,7 @@
     <ClCompile Include="AlertObserver.cpp">
       <Filter>Source Files\Observers</Filter>
     </ClCompile>
-    <ClCompile Include="FraudMonitor.cpp">
+    <ClCompile Include="FraudMonitor.h">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ChartOrderObserver.h">

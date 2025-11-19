@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+/.vs
+/_out
+/build
+/out
+/debug
+/packages/nlohmann.json.3.11.3

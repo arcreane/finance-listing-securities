@@ -15,8 +15,8 @@
 #include <QtCharts/QLineSeries>
 #include <QTableWidget>
 #include <QLCDNumber>
-#include <Order.h>
-#include <SearchableTableWidget.h>
+#include "Order.h"
+#include "SearchableTableWidget.h"
 #include "Alert.h"
 
 class MultipleViewsWindow : public QMainWindow

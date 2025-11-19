@@ -7,9 +7,9 @@
 #include "WashProcessor.h"
 #include "DbConnector.h"
 #include <QApplication>
-#include <FraudMonitor.cpp>
-#include <ChartFraudObserver.h>
-#include <ChartOrderObserver.h>
+#include "ChartFraudObserver.h"
+#include "ChartOrderObserver.h"
+#include "FraudMonitor.h"
 
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);

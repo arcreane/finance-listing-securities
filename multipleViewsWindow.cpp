@@ -1,5 +1,5 @@
 #include "multipleViewsWindow.h"
-#include <Alert.h>
+#include "Alert.h"
 
 // creation of the window
 MultipleViewsWindow::MultipleViewsWindow(QWidget* parent)
