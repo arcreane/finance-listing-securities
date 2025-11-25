@@ -13,6 +13,7 @@ After installing all the dependencie :
 git clone https://github.com/AdamYv/Euronext_Surveillance.git
 ````
 
+
 ## Compile
 The easiest way is to use clion , but you can try in the terminal like this :  
 
