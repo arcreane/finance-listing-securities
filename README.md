@@ -25,6 +25,7 @@ cmake  \
   -DSQLITE3_LIBRARY=/usr/lib64/libsqlite3.so
 ````
 
+
 *Compile*
 ````
 make
