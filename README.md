@@ -8,7 +8,7 @@ Secure authentication module checking the validity of the identifier (C++ / Crow
 - [QT](https://www.qt.io/download-qt-installer-oss)
 
 ## Install
-After installing all the dependencie :
+After installing all the dependencies :
 ````
 git clone https://github.com/AdamYv/Euronext_Surveillance.git
 ````
