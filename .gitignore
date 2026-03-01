@@ -1,0 +1,66 @@
+sftp.json
+
+# Build directories
+build/
+debug/
+release/
+out/
+
+# Qt Creator files
+*.pro.user*
+*.qmake.stash
+*.autosave
+.qtcreator/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Qt generated
+Makefile*
+!Makefile
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+.eggs/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
